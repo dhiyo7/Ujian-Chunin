@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="m-6">
               <Link
-                to="/weeksatu"
+                to="/weekdua"
                 className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
               >
                 <span className="font-mono mx-auto">Week 2</span>
@@ -45,13 +45,12 @@ export default function Home() {
               </Link>
             </div>
             <div className="m-6">
-              <a
-                href="https://pinterest.com/quicktoolz/"
-                title="Quicktoolz On Pinterest"
+              <Link
+                to="#"
                 className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-gray-600 hover:border-gray-600 hover:bg-gray-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
               >
                 <span className="font-mono mx-auto">Submit</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
