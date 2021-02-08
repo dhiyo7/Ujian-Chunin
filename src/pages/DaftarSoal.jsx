@@ -5,18 +5,15 @@ import axios from "axios";
 // data Dummy
 // import response_data from '../../src/data/data.json'
 
-const BASE_URL = "https://my-json-server.typicode.com/dhiyo7/Ujian-Chunin/db";
+const BASE_URL = process.env.REACT_APP_URL;
+
 
 export default function DaftarSoal() {
   const [soalMain, setSoalMain] = useState([]);
-  const [soalChild, setSoalChild] = useState([]);
 
   const getDataSoal = async () => {
     await axios.get(BASE_URL).then((res) => {
       const soal = res.data.data;
-      const childSoal = res.data.data.soal;
-      console.log("childSoal ", res.data.data.soal);
-      console.log("data ", res.data.data);
       setSoalMain(soal);
     });
   };
