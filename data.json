@@ -1,0 +1,49 @@
+{
+  "messagae": "Data Berhasil",
+  "status": 200,
+  "data": [
+    {
+      "id": 1,
+      "name": "Soal Ke-1",
+      "descriptoin": "Soal dasar mengenai pengetahuan dasar programming.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Apakah yang dimaksud dengan Variabel dan Tipe Data didalam Javascript? Jelaskan jenis-jenis nya!"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Apakah perbedaan antara percabangan if-else dengan switch-case? Berikan contohnya dalam bentuk code sederhana!"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Apakah yang dimaksud dengan function dan method dalam Javascript? Jelaskan perbedaannya! dan berikan contohnya dalam bentuk code sederhana"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Apa yang kamu ketahui tentang synchronous dan asynchronous programming di Javascript?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Soal Ke-2",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic ringan.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Buat program yang menghitung rata-rata UN beserta gradenya, dengan mengisi 4 nilai yakni Bahasa indonesia,Bahasa Inggris Matematika dan IPA, yang di dalam program tersebut memiliki validasi yaitu semua nilai tersebut harus diisi dan juga untuk grade memiliki kondisi dengan ketentuan sebagai berikut: 90 - 100 = A, 80 - 89 = B, 70 - 79 = C,  60 - 69 = D, 0 - 59 = E"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "1. klik gambar ini https://res.cloudinary.com/devloops7/image/upload/v1612761431/chunin/screenshot-docs.google.com-2021.02.08-12_14_19_byiobb.png lalu Ubahlah data  tersebut menggunakan spread operator menjadi: \n name: nama anda\n email: email anda\n hobby: hobi anda\n. 2. Ambilah data “street dan city” tersebut menggunakan destructuring"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Buatlah program yang memiliki satu variabel dengan nama “printSegitiga” yg berisi tipe data number yang menghasilkan output segitiga terbalik yang berisi angka"
+        }
+      ]
+    }
+  ]
+}
+
