@@ -7,7 +7,6 @@ import axios from "axios";
 
 const BASE_URL = process.env.REACT_APP_URL;
 
-
 export default function DaftarSoal() {
   const [soalMain, setSoalMain] = useState([]);
 
@@ -71,13 +70,7 @@ export default function DaftarSoal() {
           <nav>
             <ul className="flex justify-start">
               <li className="p-4 underline">
-                <a href="#">GitHub</a>
-              </li>
-              <li className="p-4 underline">
-                <a href="#">Twitter</a>
-              </li>
-              <li className="p-4 underline">
-                <a href="#">Email Me</a>
+                <a href="https://github.com/dhiyo7">GitHub</a>
               </li>
             </ul>
           </nav>
