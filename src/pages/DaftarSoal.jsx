@@ -53,7 +53,7 @@ export default function DaftarSoal() {
                 <div className="border-dotted mt-5">
                   {soal.map(({ id_soal, soalnya }) => {
                     return (
-                      <ul className="list-disc mt-2" key={id_soal}>
+                      <ul className="px-3 list-disc mt-2" key={id_soal}>
                         <li>{soalnya}</li>
                       </ul>
                     );

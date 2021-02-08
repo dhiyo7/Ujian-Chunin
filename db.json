@@ -41,6 +41,36 @@
           "soalnya": "Buatlah program yang memiliki satu variabel dengan nama “printSegitiga” yg berisi tipe data number yang menghasilkan output segitiga terbalik yang berisi angka"
         }
       ]
+    },
+    {
+      "id":3,
+      "name":"Soal Ke-3",
+      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan array.",
+      "soal":[
+        {
+          "id_soal": 1,
+          "soalnya": "Buatlah program searching nama yang dapat dibatasi jumlah outputnya yang menerapkan  callback function dengan data sebagai berikut: const name = [‘Abigail’, ‘Alexandra’, ‘Alison’, ‘Amanda’, ‘Angela’, ’Bella’, ‘Carol’, ‘Caroline’, ‘Carolyn’, ‘Deirdre’, ‘Diana’, ‘Elizabeth’, ‘Ella’, ‘Faith’, ‘Olivia’, ‘Penelope’]. Contoh: searchName(“an”, 3, callback)"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah fungsi yang memiliki parameter nilaiAwal (number) dan nilaiAkhir (number), serta dataArray (array). Fungsi tersebut memiliki validasi nilaiAwal < nilaiAkhir dan jumlah data dalam dataArray harus lebih dari 5. Fungsi tersebut akan mencari data didalam dataArray yang memiliki nilai diantara nilaiAwal dan nilaiAkhir, mengurutkan hasil pencarian dan menampilkannya ke layar/console."
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"Soal Ke-4",
+      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan Async dan Promise.",
+      "soal":[
+        {
+          "id_soal": 1,
+          "soalnya": "Buatlah 3 program bebas dengan menggunakan promise"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah program menggunakan method fetch untuk menampilkan semua title (hanya title nya saja) dari REST API dibawah ini https://dhiyo-api-article.herokuapp.com/articles Gunakan debugger console bawaan browser Chrome untuk melihat hasilnya "
+        }
+      ]
     }
   ]
 }
