@@ -1,25 +1,26 @@
 {
-  "short_name": "ChuninApp",
-  "name": "Aplikasi Chunin",
+  "name": "ChuninApp",
+  "short_name": "Aplikasi Ujian Chunin",
   "icons": [
-    {
-      "src": "icon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "icon.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "icon.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+      {
+          "src": "./icon.png",
+          "sizes": "92x92",
+          "type": "image/png"
+      },
+      {
+          "src": "./icon.png",
+          "sizes": "144x144",
+          "type": "image/png"
+      },
+      {
+          "src": "./icon.png",
+          "sizes": "152x152",
+          "type": "image/png"
+      }        
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "background_color": "#f0f2f5",
+  "theme_color": "#96f2d7"
 }
