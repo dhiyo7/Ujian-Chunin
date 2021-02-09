@@ -45,7 +45,7 @@
     {
       "id":3,
       "name":"Soal Ke-3",
-      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan array.",
+      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan callback function.",
       "soal":[
         {
           "id_soal": 1,
@@ -69,6 +69,45 @@
         {
           "id_soal": 2,
           "soalnya": "Buatlah program menggunakan method fetch untuk menampilkan semua title (hanya title nya saja) dari REST API dibawah ini https://dhiyo-api-article.herokuapp.com/articles Gunakan debugger console bawaan browser Chrome untuk melihat hasilnya "
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name":"Soal Ke-5",
+      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang tingkat kesulitannya lebih rumit.",
+      "soal":[
+        {
+          "id_soal": 1,
+          "soalnya": "Diberikan sebuah variabel yang berisikan bilangan integer dengan ketentuan angka 0 (nol) dalam variabel tersebut merupakan pemisah antara satu bilangan dengan bilangan lainnya. Bilangan-bilangan tersebut akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu sendiri. Setelah itu, bilangan hasil pengurutan akan digabung kembali dengan tanpa pemisah dengan output berupa bilangan integer. Buatlah method/function yang menerima parameter hanya deret angka dan menghasilkan output seperti keterangan di atas. contoh (56431046145403146) menjadi (134561444561346) "
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah sebuah function yang dapat mengembalikan string baru yang telah diurutkan dari a - z akan tetapi tidak diperbolehkan ada huruf yang sama. Contoh : (pluginsangatkerensekali) menjadi (aegiklnprsu) "
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "buatlah fungsi yang menampilkan angka, berdasarkan urutan angka yang sudah di tentukan. Yang menerima 3 parameter: n = urutan angka yang ingin dicari, a = angka pertama, b = selisih tiap angka"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi terbalik. Misalnya kalimat “Saya cinta  PLUGIN”, output “PLUGIN cinta Saya” tanpa menggunakan built-in function / method bawaan dari javascript"
+        },
+        {
+          "id_soal": 5,
+          "soalnya": "Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi terbalik. Misalnya kalimat “Saya cinta  PLUGIN”, output “PLUGIN cinta Saya” tanpa menggunakan built-in function / method bawaan dari javascript"
+        },
+        {
+          "id_soal": 6,
+          "soalnya": "Anton sedang bersiap untuk mengikuti tes IQ. Tes yang paling sering keluar adalah mencari angka mana yang berbeda dari yang lain. Anton mengamati bahwa pasti ada satu angka yang berbeda dari yang lain dalam hal pemerataan.  Buatlah sebuah program yang dapat membantu Anton untuk mengetahui di posisi manakah angka yang berbeda. Catatan Posisi angka dimulai dari satu (1) bukan nol (0)"
+        },
+        {
+          "id_soal": 7,
+          "soalnya": "Jelaskan apa yang kalian tahu mengenai Database, berikan contoh 5 query yang kalian tau. Jelaskan apa yang di maksud dengan Framwork, lalu apa perbedannya Framework dengan Library, dan berikan 7 contoh Framework Javascript yang kalian tahu. Jelaskan perbedaan antara FrontEnd dan Backend menurut pendapat kalian."
+        },
+        {
+          "id_soal": 8,
+          "soalnya": "Buat dan jelaskanlah 10 method bawaan JavaScript (Built-in Functions) beserta contoh penggunaannya"
         }
       ]
     }
