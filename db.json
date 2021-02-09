@@ -95,18 +95,14 @@
         },
         {
           "id_soal": 5,
-          "soalnya": "Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi terbalik. Misalnya kalimat “Saya cinta  PLUGIN”, output “PLUGIN cinta Saya” tanpa menggunakan built-in function / method bawaan dari javascript"
-        },
-        {
-          "id_soal": 6,
           "soalnya": "Anton sedang bersiap untuk mengikuti tes IQ. Tes yang paling sering keluar adalah mencari angka mana yang berbeda dari yang lain. Anton mengamati bahwa pasti ada satu angka yang berbeda dari yang lain dalam hal pemerataan.  Buatlah sebuah program yang dapat membantu Anton untuk mengetahui di posisi manakah angka yang berbeda. Catatan Posisi angka dimulai dari satu (1) bukan nol (0)"
         },
         {
-          "id_soal": 7,
+          "id_soal": 6,
           "soalnya": "Jelaskan apa yang kalian tahu mengenai Database, berikan contoh 5 query yang kalian tau. Jelaskan apa yang di maksud dengan Framwork, lalu apa perbedannya Framework dengan Library, dan berikan 7 contoh Framework Javascript yang kalian tahu. Jelaskan perbedaan antara FrontEnd dan Backend menurut pendapat kalian."
         },
         {
-          "id_soal": 8,
+          "id_soal": 7,
           "soalnya": "Buat dan jelaskanlah 10 method bawaan JavaScript (Built-in Functions) beserta contoh penggunaannya"
         }
       ]
