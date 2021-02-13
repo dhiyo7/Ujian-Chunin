@@ -121,7 +121,7 @@
         },
         {
           "id_soal": 2,
-          "soalnya": "Buatlah 1 fitur CRUD untuk melakukan pengolahan data pada projek ini, yang berarti bisa melakukan CRUD buku dan CRUD kategori. Kalian bisa menggunakan template engine seperti 'EJS', 'HandleBars', 'Pug', dll. Buat dengan ketentuan rapih, serta responsive."
+          "soalnya": "Buatlah 1 fitur CRUD untuk melakukan pengolahan data pada projek ini, yang berarti bisa melakukan CRUD buku dan CRUD kategori. Kalian bisa menggunakan template engine seperti 'HandleBars', 'Pug', dll. Kecuali 'EJS'. Buat dengan ketentuan rapih, serta responsive."
         },
         {
           "id_soal": 3,

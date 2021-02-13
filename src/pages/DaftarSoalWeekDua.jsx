@@ -1,45 +1,82 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
-export default function DaftarSoalWeekDua() {
+// data Dummy
+// import response_data from '../../src/data/data.json'
+
+const BASE_URL = process.env.REACT_APP_URL;
+
+export default function DaftarSoal() {
+  const [soalMain, setSoalMain] = useState([]);
+
+  const getDataSoal = async () => {
+    await axios.get(BASE_URL).then((res) => {
+      const soal = res.data.data2;
+      console.log("Soal ke 2 ",soal);
+      setSoalMain(soal);
+    });
+  };
+
+  useEffect(() => {
+    getDataSoal();
+  }, []);
+
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-200">
-      <div className="container">
-        <div className="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
-          <div className="w-1/2 mx-auto">
-            <div className="w-full shadow-2xl subpixel-antialiased rounded h-64 bg-black border-black mx-auto">
-              <div
-                className="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black"
-                id="headerTerminal"
-              >
-                <div
-                  className="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
-                  id="closebtn"
-                ></div>
-                <div
-                  className="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3"
-                  id="minbtn"
-                ></div>
-                <div
-                  className="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3"
-                  id="maxbtn"
-                ></div>
-                <div className="mx-auto pr-16" id="terminaltitle">
-                  <p className="text-center text-sm">Terminal</p>
-                </div>
-              </div>
-              <div
-                className="pl-1 pt-1 h-auto  text-green-200 font-mono text-xs bg-black"
-                id="console"
-              >
-                <p className="pb-1">
-                  Gausah buru buru selesaiin aja week 1
-                </p>
-                <p className="pb-1">Web juga lagi di bikin, Developernya sibuk</p>
-              </div>
-            </div>
+    <div className="relative min-h-screen pb-20 font-mono text-cyan-900">
+      <div className="w-full bg-gray-100 flex justify-center h-20 text-cyan-900">
+        <div className="container max-w-3xl flex justify-between h-20 items-center">
+          <div className="p-4 underline">
+            <Link to="/">Home</Link>
           </div>
+          <nav>
+            <ul className="flex justify-start">
+              <li className="p-4 underline">
+                <Link to="/guide">Guide</Link>
+              </li>
+              <li className="p-4 underline">
+                <a href="#">Submit</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
+      <div className="flex justify-center py-5">
+        <div className="container max-w-3xl p-4">
+          <h1 className="py-5">List Task:</h1>
+          {soalMain.map(({ id, name, descriptoin, soal }) => {
+            return (
+              <div className="post py-5" key={id}>
+                <h2 className="underline hover:text-cyan-900 text-xl text-bold">
+                  {name}
+                </h2>
+                <p>{descriptoin}</p>
+                <div className="border-dotted mt-5">
+                  {soal.map(({ id_soal, soalnya }) => {
+                    return (
+                      <ul className="px-3 list-disc mt-2" key={id_soal}>
+                        <li>{soalnya}</li>
+                      </ul>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <footer className="w-full bg-gray-100 flex justify-center h-20 text-cyan-900 absolute bottom-0">
+        <div className="container max-w-3xl flex justify-between h-20 items-center">
+          <div className="p-4">© All rights reserved.</div>
+          <nav>
+            <ul className="flex justify-start">
+              <li className="p-4 underline">
+                <a href="https://github.com/dhiyo7">GitHub</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
   );
 }
