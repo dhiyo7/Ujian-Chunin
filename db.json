@@ -43,10 +43,10 @@
       ]
     },
     {
-      "id":3,
-      "name":"Soal Ke-3",
-      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan callback function.",
-      "soal":[
+      "id": 3,
+      "name": "Soal Ke-3",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan callback function.",
+      "soal": [
         {
           "id_soal": 1,
           "soalnya": "Buatlah program searching nama yang dapat dibatasi jumlah outputnya yang menerapkan  callback function dengan data sebagai berikut: const name = [‘Abigail’, ‘Alexandra’, ‘Alison’, ‘Amanda’, ‘Angela’, ’Bella’, ‘Carol’, ‘Caroline’, ‘Carolyn’, ‘Deirdre’, ‘Diana’, ‘Elizabeth’, ‘Ella’, ‘Faith’, ‘Olivia’, ‘Penelope’]. Contoh: searchName(“an”, 3, callback)"
@@ -58,10 +58,10 @@
       ]
     },
     {
-      "id":4,
-      "name":"Soal Ke-4",
-      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan Async dan Promise.",
-      "soal":[
+      "id": 4,
+      "name": "Soal Ke-4",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang berhubungan dengan Async dan Promise.",
+      "soal": [
         {
           "id_soal": 1,
           "soalnya": "Buatlah 3 program bebas dengan menggunakan promise"
@@ -73,10 +73,10 @@
       ]
     },
     {
-      "id":5,
-      "name":"Soal Ke-5",
-      "descriptoin":"Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang tingkat kesulitannya lebih rumit.",
-      "soal":[
+      "id": 5,
+      "name": "Soal Ke-5",
+      "descriptoin": "Disini kalian dituntut untuk menyelesaikan beberapa soal logic yang tingkat kesulitannya lebih rumit.",
+      "soal": [
         {
           "id_soal": 1,
           "soalnya": "Diberikan sebuah variabel yang berisikan bilangan integer dengan ketentuan angka 0 (nol) dalam variabel tersebut merupakan pemisah antara satu bilangan dengan bilangan lainnya. Bilangan-bilangan tersebut akan dipisah dan diurutkan berdasarkan angka di bilangan-bilangan itu sendiri. Setelah itu, bilangan hasil pengurutan akan digabung kembali dengan tanpa pemisah dengan output berupa bilangan integer. Buatlah method/function yang menerima parameter hanya deret angka dan menghasilkan output seperti keterangan di atas. contoh (56431046145403146) menjadi (134561444561346) "
@@ -111,6 +111,39 @@
         }
       ]
     }
+  ],
+
+  "data2": [
+    {
+      "id": 1,
+      "name": "Soal Backend Beginner",
+      "descriptoin": "Kali ini kalian dituntut untuk menyelesaikan soal dalam bentuk projek, dimana kalian harus berfokus pada bagian BackEnd yang nantinya projek ini akan kalian pakai pada minggu minggu selanjutnya. Dianjurkan menggunakan stack seperti Express, MySQL, akan tetapi kalian boleh menggunakan stack lain untuk explore lebih. berikut ketentuan soal pada bagian Backend Beginner.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Buatlah scheme DB dengan ketentuan 2 table yaitu table Buku dan table kategori. dimana 1 buku mempunyai 1 kategori."
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah 1 fitur CRUD untuk melakukan pengolahan data pada projek ini, yang berarti bisa melakukan CRUD buku dan CRUD kategori. Kalian bisa menggunakan template engine seperti 'EJS', 'HandleBars', 'Pug', dll. Buat dengan ketentuan rapih, serta responsive."
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Buatlahlah juga RESTFullAPI dari projek diatas. kalian bisa cari apa perbedaan RESTApi dengan RESTFullAPI."
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Buatlah dokumentasi API dengan Postman, Insomnia atau Docgen."
+        },
+        {
+          "id_soal": 5,
+          "soalnya": "Deploy Rest Full API kalian ke Heroku serta push projek kalian ke github dan lengkapi Readme.md nya dengan ketentuan ada deskripsi, ada design DB nya ada tech stack yang kalian gunakan, ada route API serta sedikit penjelasannya. cantumkan link dokumentasi API dan link deploy heroku lalu cara menjalankan projek tersebut."
+        },
+        {
+          "id_soal": 6,
+          "soalnya": "Tips n Trick : kalian bisa gunakan remotemysql.com untuk keperluan upload DB."
+        }
+      ]
+    }
   ]
 }
-
