@@ -156,11 +156,11 @@
         },
         {
           "id_soal": 3,
-          "soalnya": "Slicing UI yang sudah ada kedalam bentuk HTML & CSS dengan ketentuan responsive, kalian bisa gunakan framework CSS untuk mambantu serta mempercepat dalam pembuatan produk."
+          "soalnya": "Slicing UI yang sudah ada kedalam bentuk HTML & CSS dengan ketentuan responsive, kalian bisa gunakan framework CSS untuk mambantu serta mempercepat dalam pembuatan produk. kalian bisa gunakan Tailwindcss, Bootstrap, ChakraUI, dll"
         },
         {
           "id_soal": 4,
-          "soalnya": "Deploy ke netlify jika sudah selesai."
+          "soalnya": "Deploy ke netlify jika sudah selesai"
         }
       ]
     }
