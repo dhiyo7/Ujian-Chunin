@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Home} />
-      <Route path="/weeksatu" component={DaftarSoal} />
-      <Route path="/weekdua" component={DaftarSoalWeekDua} />
-      <Route path="/guide" component={Guide} />
+      <Route path="/weeksatu" exact component={DaftarSoal} />
+      <Route path="/weekdua" exact component={DaftarSoalWeekDua} />
+      <Route path="/guide" exact component={Guide} />
     </BrowserRouter>
   );
 }

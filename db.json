@@ -112,7 +112,7 @@
   "data2": [
     {
       "id": 1,
-      "name": "Soal Backend Beginner",
+      "name": "Soal Projek Week ke 1",
       "descriptoin": "Kali ini kalian dituntut untuk menyelesaikan soal dalam bentuk projek, dimana kalian harus berfokus pada bagian BackEnd yang nantinya projek ini akan kalian pakai pada minggu minggu selanjutnya. Dianjurkan menggunakan stack seperti Express, MySQL, akan tetapi kalian boleh menggunakan stack lain untuk explore lebih. berikut ketentuan soal pada bagian Backend Beginner.",
       "soal": [
         {
@@ -138,6 +138,29 @@
         {
           "id_soal": 6,
           "soalnya": "Tips n Trick : kalian bisa gunakan remotemysql.com untuk keperluan upload DB."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Soal Projek Week ke 2",
+      "descriptoin": "Pada minggu ini kalian diminta untuk menganalisis sebuah produk dan slicing mockup yang sudah ada ke dalam file HTML & CSS.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "https://www.figma.com/file/K6zP66LxzODFmkhxqBfry7/Untitled?node-id=0%3A1."
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah semua sechema DB dengan MySQL untuk kebutuhan supply data pada FrontEnd nantinya agar bisa di consume."
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Slicing UI yang sudah ada kedalam bentuk HTML & CSS dengan ketentuan responsive, kalian bisa gunakan framework CSS untuk mambantu serta mempercepat dalam pembuatan produk."
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Deploy ke netlify jika sudah selesai."
         }
       ]
     }

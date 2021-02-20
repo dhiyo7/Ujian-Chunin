@@ -25,7 +25,7 @@ export default function Home() {
                 to="/weeksatu"
                 className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
               >
-                <span className="font-mono mx-auto">Week 1</span>
+                <span className="font-mono mx-auto">Logic</span>
               </Link>
             </div>
             <div className="m-6">
@@ -33,7 +33,7 @@ export default function Home() {
                 to="/weekdua"
                 className="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-red-600 hover:border-red-600 hover:bg-red-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
               >
-                <span className="font-mono mx-auto">Week 2</span>
+                <span className="font-mono mx-auto">Project</span>
               </Link>
             </div>
             <div className="m-6">
