@@ -163,6 +163,33 @@
           "soalnya": "Deploy ke netlify jika sudah selesai"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Soal Projek Week ke 3",
+      "descriptoin": "Pada minggu ini kalian diminta untuk membuat BackEnd dari skema database yang sudah kalian buat dan analisa lagi pada mockup di minggu lalu. Buatlah semua kebutuhan BackEnd yang di perlukan untuk FrontEnd kedepannya.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Gunakan ExpressJs, Prisma ORM, PostgreSQL"
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Buatlah projek dengan ketentuan modular di setiap fitur"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Perhatikan status response dan handle error"
+        },
+        {
+          "id_soal": 4,
+          "soalnya": "Buatlah dokumentasi API menggunakan Postman, serta push ke github dan jgn lupa deskripsikan apa yang kalian buat di Readme.md"
+        },
+        {
+          "id_soal": 5,
+          "soalnya": "Deploy ke heroku jika sudah selesai. Ini bakalan jadi nilai plus plus :v"
+        }
+      ]
     }
   ]
 }
