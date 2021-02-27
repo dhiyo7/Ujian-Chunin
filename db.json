@@ -188,6 +188,10 @@
         {
           "id_soal": 5,
           "soalnya": "Deploy ke heroku jika sudah selesai. Ini bakalan jadi nilai plus plus :v"
+        },
+        {
+          "id_soal": 6,
+          "soalnya": "Untuk modularisasi bisa cek github https://github.com/dhiyo7/BooksRentals-Backend"
         }
       ]
     }
