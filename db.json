@@ -194,6 +194,25 @@
           "soalnya": "Untuk modularisasi bisa cek github https://github.com/dhiyo7/BooksRentals-Backend"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Soal Projek Week ke 4",
+      "descriptoin": "Buatlah semua backend yang nantinya akan kalian pakai untuk kebutuhan FrontEnd kalian. tugas ini 2 minggu jadi maksimalkan.",
+      "soal": [
+        {
+          "id_soal": 1,
+          "soalnya": "Ketentuan soal sama dengan minggu lalu."
+        },
+        {
+          "id_soal": 2,
+          "soalnya": "Perhatikan segala bentuk data berdasarkan mockup yang ada"
+        },
+        {
+          "id_soal": 3,
+          "soalnya": "Kurangin kesalahan yang sama dengan minggu lalu. Perhatikan se detail mungkin."
+        }
+      ]
     }
   ]
 }
