@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
-    "@sentry/react": "^6.1.0",
-    "@sentry/tracing": "^6.1.0",
+    "@sentry/react": "^7.43.0",
+    "@sentry/tracing": "^7.43.0",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -13,6 +13,7 @@
     "autoprefixer": "^9",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "json-server": "^0.17.2",
     "postcss": "^7",
     "postcss-cli": "^8.3.1",
     "react": "^17.0.1",
